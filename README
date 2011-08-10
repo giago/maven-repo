@@ -1,0 +1,12 @@
+Maven repository for giago public projects
+If you are using maven you need to define the repo and then the dependency
+<repositories>
+  <repository>
+    <id>public-mvn-repo-snapshots</id>
+    <url>https://github.com/giago/maven-repo/raw/master/snapshots</url>
+  </repository>
+  <repository>
+    <id>public-mvn-repo-releases</id>
+    <url>https://github.com/giago/maven-repo/raw/master/releases</url>
+  </repository>
+</repositories>
